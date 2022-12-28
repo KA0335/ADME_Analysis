@@ -1,4 +1,19 @@
 # DeepMirror
+
+Definition: A small-molecule drug is a chemical and it needs to travel from the site of administration (e.g., oral) to the site of action (e.g., a tissue) and then decomposes, exits the body. To do that safely and efficaciously, the chemical is required to have numerous ideal absorption, distribution, metabolism, and excretion (ADME) properties. This task aims to predict various kinds of ADME properties accurately given a drug candidate's structural information.
+
+Impact: Poor ADME profile is the most prominent reason of failure in clinical trials. Thus, an early and accurate ADME profiling during the discovery stage is a necessary condition for successful development of small-molecule candidate.
+
+Generalization: In real-world discovery, the drug structures of interest evolve over time. Thus, ADME prediction requires a model to generalize to a set of unseen drugs that are structurally distant to the known drug set. While time information is usually unavailable for many datasets, one way to approximate the similar effect is via scaffold split, where it forces training and test set have distant molecular structures.
+
+Product: Small-molecule.
+
+Pipeline: Efficacy and safety - lead development and optimization.
+
+The source of this information and more useful resources are available at https://tdcommons.ai/single_pred_tasks/adme/#caco-2-cell-effective-permeability-wang-et-al
+
+
+
 For measuring the ADME properties, the following datasets have been chosen:
 +	**HIA (Human Intestinal Absorption)**, Hou et al.- For **Adsorption** (A)
 +	**BBB (Blood-Brain Barrier)**, Martins et al. – For **Distribution** (D)
