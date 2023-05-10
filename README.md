@@ -1,4 +1,4 @@
-# DeepMirror
+# TDC Data Analysis and Modelling
 
 Definition: A small-molecule drug is a chemical and it needs to travel from the site of administration (e.g., oral) to the site of action (e.g., a tissue) and then decomposes, exits the body. To do that safely and efficaciously, the chemical is required to have numerous ideal absorption, distribution, metabolism, and excretion (ADME) properties. This task aims to predict various kinds of ADME properties accurately given a drug candidate's structural information.
 
